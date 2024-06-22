@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "s306022024"
+    bucket         = "mmg-terraform-remote-state"
     key            = "terraform.tfstate"
     region         = "us-east-1"
   }

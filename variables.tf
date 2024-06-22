@@ -9,12 +9,12 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  description = "Name of the existing EC2 key pair"
+  description = "newkeypair"
   default = "2023"
 }
 
 variable "s3_bucket_name" {
-  description = "Name of the S3 bucket for remote state"
+  description = "mmg-terraform-remote-state"
   default = "tfdemo16112023"
 }
 
